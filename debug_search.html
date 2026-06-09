@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+</head>
+<body>
+
+<script>
+  window.$CONFIG = {
+    pcUrl: 'https://wow.liepin.com/t1012695/4410f519.html',
+    h5Url: 'https://wow.liepin.com/t1012695/0361c098.html'
+  }
+
+
+  function isMobile() {
+    var mobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+    return mobile!= null
+  }
+
+  const searchParams = window.location.search.replace('?', '');
+  const h5Url = !searchParams ? window.$CONFIG.h5Url : window.$CONFIG.h5Url.includes('?') ?  window.$CONFIG.h5Url + '&' + searchParams:   window.$CONFIG.h5Url + '?' + searchParams;
+  const pcUrl = !searchParams ? window.$CONFIG.pcUrl : window.$CONFIG.pcUrl.includes('?') ?  window.$CONFIG.pcUrl + '&' + searchParams:   window.$CONFIG.pcUrl + '?' + searchParams;
+  if (isMobile()) {
+    if (h5Url) {
+      window.location.href = h5Url
+    } else {
+      window.location.href = pcUrl
+    }
+  } else {
+    if(pcUrl){
+      window.location.href = pcUrl
+    }else{
+      window.location.href = h5Url
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>猎聘</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="referrer" content="no-referrer-when-downgrade"/>
+    <link rel="icon" href="//concat.lietou-static.com/fe-www-pc/v5/static/favicon.e6edbc00.ico" type="image/x-icon" />
+    <link href="//wow.liepin.com/component/new-yangtuo-page-pc/static/commonpc.css" rel="stylesheet">
+    <script>window.__FE_CLIENT_ID = '40247';</script>
+</head>
+
+<body>
+<div id="main-container"></div>
+<script>
+  window.$CONFIG = {
+    login: false,
+    backUrl: '',
+    pageId:'32657',
+    projectId:'15727'
+  }
+</script>
+
+<script>
+  if (window.$CONFIG && window.$CONFIG.login === true) {
+    function isLogin() {
+      var getKey = document.cookie.match(/UniqueKey=([^;]+)/) || []
+      var key = getKey[1]
+      return !!key
+    }
+    if (!isLogin()) {
+      var _DOMAIN = location.host.replace(/^.*?([^.]+\.[^.]+)$/, '$1')
+      window.location.href = $CONFIG.backUrl.replace('_DOMAIN', _DOMAIN) + window.location.href;
+    }
+  }
+</script>
+<script>
+  if (/.*?\.duolie\..*?/.test("wow.liepin.com")) {
+    window.tlg = {
+      pageId:'rivers_page_32657',
+      accountId: '17e7bfa8f1f'
+    };
+  } else if (/.*?\.lebanban\..*?/.test("wow.liepin.com")) {
+    window.tlg = {
+      pageId:'rivers_page_32657',
+      accountId: '1542890a6aa'
+    };
+  } else if (/.*?\.duomian\..*?/.test("wow.liepin.com")) {
+    window.tlg = {
+      pageId:'rivers_page_32657',
+      accountId: '16af8231f44'
+    };
+  } else {
+    window.tlg = {
+      pageId:'rivers_page_32657'
+    };
+  }
+</script>
+<script>
+  function ___loadMainJs(){
+    var isIE = navigator.userAgent.indexOf("compatible") > -1 && navigator.userAgent.indexOf("MSIE") > -1;  //判断是否IE<11浏览器
+    var isIE11 = navigator.userAgent.indexOf('Trident') > -1 && navigator.userAgent.indexOf("rv:11.0") > -1;
+    var arr = [];
+    arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/static/polyfill.min.js')
+    arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/static/react.min.js')
+    arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/static/react-dom.min.js')
+    if (isIE || isIE11) {
+      arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/static/mobx4.min.js')
+    } else {
+      arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/static/mobx.min.js')
+    }
+    arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/static/mobx-react.min.js')
+    
+    arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/static/axios.min.js')
+    arr.push('https://wow.liepin.com/component/new-yangtuo-page-pc/js/main.js')
+    arr.push('https://wow.liepin.com/config/tlog/4.0.7/pc.js')
+
+    for(var i=0; i<arr.length; i++) {
+      document.write(decodeURI('%3Cscript src="' + arr[i] + '"%3E%3C/script%3E'));
+    }
+  }
+  ___loadMainJs()
+</script>
+</body>
+</html>

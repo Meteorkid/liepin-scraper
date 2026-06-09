@@ -1,0 +1,42 @@
+页面标题: 【北京 电力卫星遥感技术工程师（电网管控技术方向/核心算法研发）招聘】-猎头顾问北京招聘信息-猎聘
+
+=== 包含job的class ===
+Class: ['job-apply-container']
+Tag: section
+Text: 电力卫星遥感技术工程师（电网管控技术方向/核心算法研发）19-21k北京-丰台区5-10年硕士招1人今日更新聊一聊收藏微信分享扫码
+
+Class: ['job-apply-content']
+Tag: div
+Text: 电力卫星遥感技术工程师（电网管控技术方向/核心算法研发）19-21k北京-丰台区5-10年硕士招1人今日更新
+
+Class: ['job-properties']
+Tag: div
+Text: 北京-丰台区5-10年硕士招1人今日更新
+
+Class: ['job-apply-operate']
+Tag: div
+Text: 聊一聊收藏微信分享扫码
+
+Class: ['job-apply-container-desc']
+Tag: section
+Text: 
+
+Class: ['job-apply-container-left']
+Tag: div
+Text: 
+
+Class: ['job-apply-header-bottom']
+Tag: div
+Text: 
+
+Class: ['job-intro-container']
+Tag: section
+Text: 职位介绍岗位职责：                                                                                           1.利用卫星遥感技术开展电网建设环水保与水土流失监测领域的核心算法研发、优化与工程化实现。聚焦于遥感信息智能提取、变化检测、参数反演及趋势预测模型。
+2.研发基于多源卫星时序数据的电网工程区域水土流失
+
+Class: ['job-assistor-container']
+Tag: section
+Text: 
+
+
+=== Script中的数据 ===

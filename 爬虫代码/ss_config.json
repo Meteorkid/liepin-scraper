@@ -1,0 +1,14 @@
+{
+  "node1": {
+    "host": "40.123.244.72",
+    "port": 443,
+    "method": "chacha20-ietf-poly1305",
+    "password": "CULuHB2PKuvK6yEN"
+  },
+  "node2": {
+    "host": "103.244.145.244",
+    "port": 26190,
+    "method": "chacha20-ietf-poly1305",
+    "password": "Xu7h4yO69H7QG_C0A9tY7jP1wN0jSzc8"
+  }
+}
